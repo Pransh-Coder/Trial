@@ -27,6 +27,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     TextView textView;
 
+    String string = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        string ="Pransh";
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
